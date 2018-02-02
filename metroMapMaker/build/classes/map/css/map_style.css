@@ -1,0 +1,89 @@
+/*
+    This style sheet stylizes the controls inside our
+    goLogoLo JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+    @author Richard McKenna
+    @author ?
+    @version 1.0
+*/
+
+.color-picker {
+    -fx-padding: 2px;
+}
+
+.edit_toolbar_row {
+    -fx-padding: 0px;
+    -fx-spacing: 10;
+    -fx-background-color: #f9ede8;
+    -fx-background-radius: 5.0;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color: #5e5e5e;
+}
+
+.color_chooser_pane {
+    -fx-background-color:seashell;
+    -fx-padding: 0px;
+}
+
+.color_chooser_control {
+    -fx-font-weight:bold;
+    -fx-font-size:20;     
+}
+
+.bordered_pane {
+    -fx-background-color: #ffd0bc;
+    -fx-background-radius: 5.0;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color: #5e5e5e;
+}
+
+
+
+.toolbar_button {
+
+}
+
+.button {
+    -fx-background-color: #f7f7f7;
+    -fx-background-radius: 10.0;
+    -fx-border-radius: 10.0;
+    -fx-spacing: 10;
+    -fx-border-color: #bfbfbf;
+    -fx-border-width: 2.5px;
+    -fx-font-size: 14px;
+}
+.button:hover{
+    -fx-background-color:#f7c8c8;
+}
+.button:armed{
+    -fx-background-color: #e57b7b;
+}
+
+.toggle-button {
+    -fx-background-color: #f7f7f7;
+    -fx-background-radius: 10.0;
+    -fx-border-radius: 10.0;
+    -fx-spacing: 10;
+    -fx-border-color: #bfbfbf;
+    -fx-border-width: 2.5px;
+    -fx-font-size: 14px;
+}
+
+.toggle-button:armed{
+    -fx-background-color: #e57b7b;
+}
+.toggle-button:hover{
+    -fx-background-color:#f7c8c8;
+}
+
+
+
+.hyperlink{
+    -fx-color: #ffd0bc;
+}
